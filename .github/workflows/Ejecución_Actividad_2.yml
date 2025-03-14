@@ -18,10 +18,8 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.12'
-
       - name: Crear entorno virtual
         run: python -m venv venv
-
       - name: Activar entorno virtual y actualizar pip
         shell: cmd
         run: |
